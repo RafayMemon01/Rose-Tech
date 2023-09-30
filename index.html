@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rose Tech</title>
-    <link rel="shortcut icon" href="./Assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Assets/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
     <meta
       name="description"
       content="Rose Tech is Computer Institute at Lyari, Karachi. 
@@ -27,5 +34,241 @@
     <meta property="og:site_name" content="Rose Tech" />
     <meta name="robots" content="index" />
   </head>
-  <body></body>
+  <body>
+    <header>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>Responsive Navigation Bar</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/zQmBoEnU1F6QRtALaCpdwq2HZF5WEhcN6wuJ/JT" crossorigin="anonymous">
+        </head>
+        <body>
+          <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <img draggable="false" src="./Assets/logo.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutUs">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#courses">Our Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacts</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+          <mainHome>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXMlMjBvZmZpY2V8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXMlMjBvZmZpY2V8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </mainHome>
+        <mainAbout>
+              <div class="aboutTitle" id="aboutUs"><h2>About Us</h2></div>
+              <div class="aboutText">
+                <p>Welcome to Rose Tech, your gateway to a world of digital possibilities! Established with a vision to empower individuals with cutting-edge technical skills, we are a leading computer institute located in Lyari, Karachi.</p>
+
+        <p>At Rose Tech, we offer a diverse range of courses designed to cater to both beginners and advanced learners. Our expert instructors are dedicated to providing hands-on training and personalized guidance, ensuring that every student reaches their full potential.</p>
+
+        <!-- <p>Our comprehensive curriculum covers a wide spectrum of subjects, including:</p>
+
+        <ul>
+            <li>Web Development</li>
+            <li>Wordpress Development</li>
+            <li>PHP Programming</li>
+            <li>MERN Stack Development</li>
+            <li>Video Editing</li>
+            <li>Graphic Designing</li>
+            <li>Basic Computer Skills</li>
+            <li>Microsoft Office Suite</li>
+            Add more courses as needed
+        </ul> -->
+
+        <p>At Rose Tech, we believe in fostering a dynamic learning environment where creativity and innovation thrive. Our state-of-the-art facilities and up-to-date curriculum ensure that students are equipped with the skills and knowledge demanded by today's tech-driven world.</p>
+
+        <p>Join us on this exciting journey towards mastering the digital landscape. Whether you're looking to launch a career in web development, enhance your design skills, or simply expand your technical horizons, Rose Tech is here to support your aspirations.</p>
+
+        <p>Get ready to embark on a transformative learning experience with us. We look forward to welcoming you to the Rose Tech family!</p>
+
+              </div>
+        </mainAbout>
+        <OurCourses>
+
+          <div class="aboutTitle" id="courses"><h2>Our Courses</h2></div>
+          <CardsContainer>
+
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <!-- img size 286x180 -->
+              <img src="" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MS Office</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Enroll</a>
+              </div>
+            </div>
+          </CardsContainer>
+        </OurCourses>
+        </main>
+            <!-- Your content goes here -->
+        
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Mx4Ff6qBAak+PJlPHvZ6PUVhwMC4AjpG6eKk6lD9ssPPH4Hqec+Exl2q1povkBJ3" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-iuyVeXY3XACu8FwI2zKaFZc5j3w6j8lEl9l5l7E1lGfDI1/GgRqG8v+7p06VDPW4" crossorigin="anonymous"></script>
+        </body>
+        </html>
+        
+        
+
+    </header>
+
+
+    <!-- scripts  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
