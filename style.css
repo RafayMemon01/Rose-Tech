@@ -3,8 +3,8 @@ body{
     padding-top: 6em;
 }
 nav.scrolled {
-    background-color: #f8f9fae5; /* Change to the desired background color */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle effect */
+    background-color: #f8f9fae5;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .carousel{
@@ -34,12 +34,16 @@ CardsContainer{
     margin-top: 2em;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 .card{
     background-color: #f8f9fa;
     border: none;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.301); /* Add a box shadow for a subtle effect */
+}
+.ourTeam{
+    padding: 2em;
 }
 @media screen and (max-width: 480px) {
     .aboutText{
