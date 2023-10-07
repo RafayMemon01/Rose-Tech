@@ -1,22 +1,21 @@
-# Rose Tech Website
+# Rose Tech Computer Institute Website
 
-Welcome to the Rose Tech website repository! This repository contains the HTML, CSS, and JavaScript code for the Rose Tech computer institute's website. 
+![Rose Tech Logo](./Assets/logo.png)
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+This is the official website for Rose Tech, a computer institute located in Lyari, Karachi. The website was created by Rafay Memon.
 
 ## About
-Rose Tech is a computer institute located in Lyari, Karachi, that offers a variety of courses such as web development, graphic design, video editing, and more.
+
+Rose Tech offers a diverse range of courses designed to empower individuals with cutting-edge technical skills. Our expert instructors provide hands-on training and personalized guidance to ensure every student reaches their full potential.
 
 ## Features
+
 - Responsive design
 - Interactive navigation bar
-- Carousel for showcasing images
 - Course information cards
-- About Us section
+- About Us section with team members
 - Contact information with a map
-- Team members' profiles
+
+## Preview
+
+![Website Preview](./Assets/preview.png)
