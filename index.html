@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rose Tech</title>
     <link rel="shortcut icon" href="./Assets/logo.png" type="image/x-icon" />
+    
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <meta
       name="description"
       content="Rose Tech is Computer Institute at Lyari, Karachi. 
@@ -67,7 +69,7 @@
                                 <a class="nav-link" href="#courses">Our Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacts</a>
+                                <a class="nav-link" href="#contact">Contacts</a>
                             </li>
                             
                         </ul>
@@ -105,24 +107,11 @@
             </button>
           </div>
         </mainHome>
-        <mainAbout>
-              <div class="aboutTitle" id="aboutUs"><h2>About Us</h2></div>
-              <div class="aboutText">
-                <p>Welcome to Rose Tech, your gateway to a world of digital possibilities! Established with a vision to empower individuals with cutting-edge technical skills, we are a leading computer institute located in Lyari, Karachi.</p>
-
-        <p>At Rose Tech, we offer a diverse range of courses designed to cater to both beginners and advanced learners. Our expert instructors are dedicated to providing hands-on training and personalized guidance, ensuring that every student reaches their full potential.</p>
-
-        <p>At Rose Tech, we believe in fostering a dynamic learning environment where creativity and innovation thrive. Our state-of-the-art facilities and up-to-date curriculum ensure that students are equipped with the skills and knowledge demanded by today's tech-driven world.</p>
-
-        <p>Join us on this exciting journey towards mastering the digital landscape. Whether you're looking to launch a career in web development, enhance your design skills, or simply expand your technical horizons, Rose Tech is here to support your aspirations.</p>
-
-        <p>Get ready to embark on a transformative learning experience with us. We look forward to welcoming you to the Rose Tech family!</p>
-
-              </div>
-        </mainAbout>
+        
         <OurCourses>
-
+          
           <div class="aboutTitle" id="courses"><h2>Our Courses</h2></div>
+          
           <CardsContainer>
 
             <div class="card" style="width: 18rem;">
@@ -173,37 +162,98 @@
 
                   </li></ul>
                 </p>
-                <a href="#" class="btn btn-primary">Get Enroll</a>
+                <a href="#" id="contact" class="btn btn-primary">Get Enroll</a>
               </div>
             </div>
           </CardsContainer>
         </OurCourses>
+        <mainAbout>
+          <div class="row aboutSection">
+            <div class="aboutTitle space" id="aboutUs"><h2>About Us</h2></div>
+              <div class="col-md-6">
+                  <div class="aboutText ">
+                    <p>Welcome to Rose Tech, your gateway to a world of digital possibilities! Established with a vision to empower individuals with cutting-edge technical skills, we are a leading computer institute located in Lyari, Karachi.</p>
+    
+            <p>At Rose Tech, we offer a diverse range of courses designed to cater to both beginners and advanced learners. Our expert instructors are dedicated to providing hands-on training and personalized guidance, ensuring that every student reaches their full potential.</p>
+    
+            <p>At Rose Tech, we believe in fostering a dynamic learning environment where creativity and innovation thrive. Our state-of-the-art facilities and up-to-date curriculum ensure that students are equipped with the skills and knowledge demanded by today's tech-driven world.</p>
+    
+            <p>Join us on this exciting journey towards mastering the digital landscape. Whether you're looking to launch a career in web development, enhance your design skills, or simply expand your technical horizons, Rose Tech is here to support your aspirations.</p>
+    
+            <p>Get ready to embark on a transformable learning experience with us. We look forward to welcoming you to the Rose Tech family!</p>
+    
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="aboutImage">
+                      <img src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t39.30808-6/375148970_792060169593055_1477229266317250547_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeGwMLtkgAv2dPa8NSoxX9tntkzl2ZQloTe2TOXZlCWhN7Xr4f3-C-RtInRGkplEnzEQn6vfGcASLgTJlAF4XdP1&_nc_ohc=yn3miOkZ5P0AX90JSN7&_nc_ht=scontent.fkhi17-1.fna&oh=00_AfDW4srZJTF3AkGtG3jfi8DuebAcNhU6NIoh5d7S3IlSQg&oe=6525BB1B" alt="About Us Image" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+      </mainAbout>
         <div class="whyChooseUs">
           <div class="aboutTitle" id="courses"><h2>Why Choose Us</h2></div>
         </div>
+        
+        <div class="section">
+          <div class="row">
+            <div class="aboutTitle" id="reachUs"><h2>How to Reach Us</h2></div>
+              <div class="col-md-6">
+                  <div class="aboutText">
+                    <p>We're excited to connect with you! You can find us at the following address:</p>
+            
+                    <address class="mb-4">
+                        <strong>Rose Tech Institute</strong><br>
+                        123 Example Street,<br>
+                        Lyari, Karachi, Pakistan
+                    </address>
+            
+                    <p>If you have any questions or inquiries, feel free to reach out to us through the following methods:</p>
+            
+                    <ul class="list-unstyled">
+                        <li><strong>Email:</strong> <a href="mailto:info@rosetech.com">info@rosetech.com</a></li>
+                        <li><strong>Phone:</strong> +92 123 456 789</li>
+                        <li><strong>WhatsApp:</strong> +92 123 456 789</li>
+                    </ul>
+            
+                    <p class="mt-4">We're open from Monday to Friday, 9:00 AM to 6:00 PM. Drop by anytime, and we'll be happy to assist you!</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1363.8726894932215!2d66.99627130802942!3d24.859332281393556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315f686e02c17%3A0xd8156d8048196acd!2sWhite%20Rose%20Grammar%20School!5e0!3m2!1sen!2s!4v1696680533984!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              </div>
+          </div>
+      </div>
+    </div>
+        </div>
          <ourTeam class="ourTeam">
           <div class="aboutTitle" id="courses"><h2>Our Team Members</h2></div>
-
-          <!-- <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="https://scontent.fkhi2-2.fna.fbcdn.net/v/t39.30808-6/332155814_179609281456458_8134331595823172617_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeFdwJh4YGv50scfDrO3rpT_f5JRhqdEyx1_klGGp0TLHWH-mjmowpX-bikvWfreTHRDdtDGvJ28MAADfikl1jLd&_nc_ohc=BCYTdQ9XeWIAX_d72kf&_nc_ht=scontent.fkhi2-2.fna&oh=00_AfAxjMehcKkpNM1iDpodG3bb2_z9yMAzM04l4ZoeOUCPJw&oe=651FF504" class="card-img-top round" alt="Team Member 2">
-                <div class="card-body">
-                    <h5 class="card-title">Umair Farooq</h5>
-                    <p class="card-text">Director</p>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-        </div> -->
+          
          </ourTeam>
-         footer
+         
         <!-- <a class="whatsappIcon" href=""><img src="https://th.bing.com/th/id/R.04e88bb85842176bf36df9938f8a3099?rik=Ml4a%2fHORRhbx4w&pid=ImgRaw&r=0" alt=""></a> -->
         </main>
-            <!-- Your content goes here -->
+        <footer class="bg-light py-4 d-flex justify-content-between align-items-center">
+          <div class="left d-flex align-items-center">
+              <img class="logo" src="./Assets/logo.png" alt="Logo">
+              <div>&copy; 2023 Rose Tech</div>
+          </div>
+          <div class="right">
+              <div class="socialmediaicons">
+                  <ul class="list-inline mb-0">
+                      <li class="list-inline-item"><a class="bi bi-facebook" href="#"></a></li>
+                      <li class="list-inline-item"><a class="bi bi-linkedin" href="#"></a></li>
+                      <li class="list-inline-item"><a class="bi bi-envelope" href="#"></a></li>
+                      <li class="list-inline-item"><a class="bi bi-instagram" href="#"></a></li>
+                      <li class="list-inline-item"><a class="bi bi-tiktok" href="#"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
+      
+      
+      
         
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Mx4Ff6qBAak+PJlPHvZ6PUVhwMC4AjpG6eKk6lD9ssPPH4Hqec+Exl2q1povkBJ3" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-iuyVeXY3XACu8FwI2zKaFZc5j3w6j8lEl9l5l7E1lGfDI1/GgRqG8v+7p06VDPW4" crossorigin="anonymous"></script>
-        </body>
-        </html>
+      
         
         
 
