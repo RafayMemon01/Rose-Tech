@@ -77,6 +77,10 @@ div.left span{
     list-style-type: none;
     margin-right: 1em;
 }
+.teamCards{
+    display: flex;
+    flex-wrap: wrap;
+}
 @media screen and (max-width: 480px) {
     .aboutText{
         display: flex;
