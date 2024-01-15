@@ -273,9 +273,15 @@ main {
   margin-top: 4em;
   /* height: 32.7em; */
   margin-bottom: 100px;
-}
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
 .whyChooseUS .left, .right{
   width: 50%;
+}
+.whyChooseUS .left{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://lh3.googleusercontent.com/pw/ABLVV85_txhmel1pxkm6Mv16gMrXm1w4Kmy8E1pEq9ST2gHNhAr03pyRN_gl8SjCUjMuKtroKMKcYpJomRSOhgIJvCujka8E2hzbO0JGoGuKa4TTwKC7v2abpHJ9F5dgAIyAdlmXNLEJnopsoA8_fPJda3rE=w1196-h897-s-no-gm?authuser=0');
 }
 .whyChooseUS .right{
  background-image: url('https://lh3.googleusercontent.com/pw/ABLVV85iAtcX4FzdF7fUHXR_zivxuX6PWRU4J3_VJIfHYxEXVhLYkNPJcqxgr7yYG9ORpMAKBtgCpGIOwD18tYcOuu_ydTVw2chF0cQf7Uh91Sbdhy5ati2sIC7otUoaCwicgHOI6nGBj-EX6UT670enQe7G=w1269-h897-s-no-gm?authuser=0') ;
@@ -316,7 +322,11 @@ main {
   font-weight: bold;
 }
 
-@media screen and (max-width:1435px){
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:769px){
   .left{
     display: none;
   }
