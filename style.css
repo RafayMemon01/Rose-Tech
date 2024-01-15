@@ -1,0 +1,399 @@
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
+body header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.subHeader {
+  display: flex;
+  padding: 0.5em;
+  color: white;
+  background-color: rgb(161, 37, 47);
+  justify-content: center;
+}
+.EnrollNowBtn {
+  background-color: rgb(161, 37, 47);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+main {
+  margin-top: 5px;
+}
+.mainBox {
+  background-image: url("https://lh3.googleusercontent.com/pw/ABLVV87BgCIkDhc7FIW8D5lc-5GcB_lBNVgIXEg22ZcSowXk4oCSlClw4HEMCOwRvPFo5tOsbGkpnAQM-rQ8XSwzpJgEuaMwfgtKwlzismqbcv4Q4bcLBFHPxm9knr9smXMLbXvjaYy9p8YeP12XXO--6Khj=w1196-h897-s-no-gm?authuser=0");
+  height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mainBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.79
+  ); /* Adjust the alpha (last parameter) to control the transparency */
+}
+
+.introBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Ensure stacking context */
+  z-index: 1; /* Bring the content to the front */
+  /* margin-left: em; */
+  background-color: rgba(161, 37, 47, 0.915);
+  gap: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+  color: aliceblue;
+}
+
+.introBox h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.introBox div button {
+  background-color: white;
+  color: darkred;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.introBox div button:hover {
+  /* background-color: darkred; */
+  border: 2px solid darkred;
+  background-color: transparent;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .introBox h1 {
+    font-size: 36px;
+  }
+  .introBox {
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+  .mainBox {
+    height: 330px;
+  }
+  .introBox div button {
+    border: 1px solid darkred;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .introBox h1 {
+    font-size: 22px !important;
+  }
+  .introBox {
+    gap: 1;
+    padding: 0.5em;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .EnrollNowBtn {
+    display: none !important;
+  }
+  .imgLogo {
+    display: none;
+  }
+  .introBox div button {
+    margin-top: 40px;
+  }
+  .mainBox::before {
+    background-color: rgba(255, 255, 255, 0.488);
+  }
+}
+
+.introContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+}
+.introContainer h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.introContainer p {
+  width: 70%;
+}
+
+@media screen and (max-width: 766px) {
+  .introContainer p {
+    width: 100%;
+  }
+}
+
+.underlines {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  gap: 10rem;
+  /* flex-wrap: nowrap; */
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.underlineLeft {
+  background-color: darkred;
+  height: 2px;
+  width: 100px;
+  animation: slideInLeft 5s ease;
+}
+.underlineRight {
+  background-color: darkred;
+  height: 2px;
+  width: 100px;
+  animation: slideInRight 5s ease;
+}
+.whatsappIcon {
+  width: 70px;
+  height: 70px;
+  padding: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.whatsappIcon:hover {
+  background-color: rgb(161, 37, 47);
+}
+
+.mainCourses {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  gap: 5rem;
+}
+.CourseSection {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 10px;
+  border-radius: 1.5em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.CourseSection:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+.CourseSection button {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+.CourseSection button i {
+  font-size: 54px;
+  background-color: rgb(161, 37, 47);
+  padding: 0.7em;
+  border: none;
+  border-radius: 1em;
+  color: white;
+}
+.CourseSection h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.CourseSection a {
+  color: rgb(161, 37, 47);
+  font-weight: bold;
+}
+.CourseSection a:hover {
+  color: rgb(161, 37, 47);
+  text-decoration: underline;
+}
+@media  screen and (max-width:665px) {
+  .mainCourses{
+    flex-wrap: wrap;
+  }
+}
+
+.whyChooseUS{
+  display: flex;
+  margin-top: 4em;
+  /* height: 32.7em; */
+  margin-bottom: 100px;
+}
+.whyChooseUS .left, .right{
+  width: 50%;
+}
+.whyChooseUS .right{
+ background-image: url('https://lh3.googleusercontent.com/pw/ABLVV85iAtcX4FzdF7fUHXR_zivxuX6PWRU4J3_VJIfHYxEXVhLYkNPJcqxgr7yYG9ORpMAKBtgCpGIOwD18tYcOuu_ydTVw2chF0cQf7Uh91Sbdhy5ati2sIC7otUoaCwicgHOI6nGBj-EX6UT670enQe7G=w1269-h897-s-no-gm?authuser=0') ;
+ padding: 2rem;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ gap: .8em;
+}
+.right h2{
+  font-size: 26px;
+  font-weight: bold;
+}
+.whyChooseUS .right .section{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.section div button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: white;
+  background-color: rgb(161, 37, 47);
+  padding: .5em;
+  border-radius: 50%;
+}
+.section .segment{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.section .segment h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width:1435px){
+  .left{
+    display: none;
+  }
+  .whyChooseUS{
+    display: flex;
+    justify-content: center;
+  }
+  .right{
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+/* h */
+@media screen and (max-width:675px){
+  .right{
+    width: 100%;
+    border-radius: 0%;
+  }
+  .whyChooseUS{
+    justify-content: start;
+  }
+  .section div button{
+    font-size: 36px;
+  }
+}
+
+
+/* footer design */
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+  padding: 2em;
+  display: flex;
+  /* margin-top: 20em; */
+  flex-direction: column;
+  gap: 2.5em;
+  /* flex-wrap: wrap; */
+}
+.footerMain {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 4em;
+}
+
+
+.section1 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.section1 h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+  @media screen and (max-width: 769px) {
+    .section1{
+      gap: 1em;
+    }
+    .footerMain{
+      gap: 2em;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .section1{
+      gap: 1em;
+    }
+    .footerMain{
+      /* gap: 2em; */
+      flex-wrap: wrap;
+    }
+  }
