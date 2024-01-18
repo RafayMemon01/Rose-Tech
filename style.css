@@ -16,7 +16,7 @@ body header {
 .EnrollNowBtn {
   background-color: rgb(161, 37, 47);
   color: white;
-  padding: 12px 24px;
+  /* padding: 12px 24px; */
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -25,6 +25,21 @@ body header {
 
 main {
   margin-top: 5px;
+}
+.mainHeading{
+  display: flex;
+  justify-content: start;
+  padding: 2em;
+  background-color: rgb(161, 37, 47);
+  margin-top: -1em;
+  border: .2px white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+.mainHeading .heading{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  /* padding: .2em; */
+  border-bottom: 2px solid white;
 }
 .mainBox {
   background-image: url("https://lh3.googleusercontent.com/pw/ABLVV87BgCIkDhc7FIW8D5lc-5GcB_lBNVgIXEg22ZcSowXk4oCSlClw4HEMCOwRvPFo5tOsbGkpnAQM-rQ8XSwzpJgEuaMwfgtKwlzismqbcv4Q4bcLBFHPxm9knr9smXMLbXvjaYy9p8YeP12XXO--6Khj=w1196-h897-s-no-gm?authuser=0");
@@ -124,9 +139,7 @@ main {
   .EnrollNowBtn {
     display: none !important;
   }
-  .imgLogo {
-    display: none;
-  }
+  
   .introBox div button {
     margin-top: 40px;
   }
@@ -151,7 +164,9 @@ main {
 .introContainer p {
   width: 70%;
 }
-
+.active{
+  border-bottom: 2px solid rgb(161, 37, 47);
+}
 @media screen and (max-width: 766px) {
   .introContainer p {
     width: 100%;
