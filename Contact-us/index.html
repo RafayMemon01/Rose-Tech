@@ -6,7 +6,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
@@ -70,8 +70,8 @@
       referrerpolicy="no-referrer"
     />
   </head>
-<body>
-  <a
+  <body>
+    <a
       target="_blank"
       href="https://api.whatsapp.com/send?phone=923102310553&text=Hello, Sir Your website is too awesome"
     >
@@ -107,7 +107,9 @@
           <a href="./../index.html" class="mr-5 hover:text-gray-900">Home</a>
           <a href="../About-Us/" class="mr-5 hover:text-gray-900">About</a>
           <a href="" class="mr-5 hover:text-gray-900">Our Courses</a>
-          <a href="./../Contact-us/" class="mr-5 hover:text-gray-900 active ">Contact</a>
+          <a href="./../Contact-us/" class="mr-5 hover:text-gray-900 active"
+            >Contact</a
+          >
         </nav>
         <a
           href="#"
@@ -116,7 +118,7 @@
         >
       </div>
     </header>
-    
+
     <main>
       <div class="mainHeading">
         <div class="heading">
@@ -128,9 +130,11 @@
           <!-- Contact Form Section -->
           <div>
             <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
-            <form onsubmit="handleSubmit(e)" class="grid grid-cols-1 gap-4 max-w-md">
+            <form id="form" class="grid grid-cols-1 gap-4 max-w-md">
               <label>
-                <span class="block text-sm font-medium text-gray-700">Name</span>
+                <span class="block text-sm font-medium text-gray-700"
+                  >Name</span
+                >
                 <input
                   type="text"
                   name="name"
@@ -141,7 +145,9 @@
                 />
               </label>
               <label>
-                <span class="block text-sm font-medium text-gray-700">Email</span>
+                <span class="block text-sm font-medium text-gray-700"
+                  >Email</span
+                >
                 <input
                   type="email"
                   name="email"
@@ -152,7 +158,9 @@
                 />
               </label>
               <label>
-                <span class="block text-sm font-medium text-gray-700">Message</span>
+                <span class="block text-sm font-medium text-gray-700"
+                  >Message</span
+                >
                 <textarea
                   name="message"
                   rows="4"
@@ -164,7 +172,7 @@
               </label>
               <button
                 type="submit"
-                class="sendMessageButton text-white py-2 px-4 rounded  focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+                class="sendMessageButton text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
               >
                 Send Message
               </button>
@@ -176,18 +184,20 @@
             <ul class="flex flex-col gap-6 justify-center">
               <li class="flex items-center mb-2">
                 <i class="fas fa-map-marker-alt c-secondary mr-2"></i>
-                Rose Tech Campus, White Rose Grammar School, Mir Muhammad Balauch Road, Near Baghdadi Police Station, Karachi, Sindh, Pakistan - 75400
+                Rose Tech Campus, White Rose Grammar School, Mir Muhammad
+                Balauch Road, Near Baghdadi Police Station, Karachi, Sindh,
+                Pakistan - 75400
               </li>
               <li class="flex items-center mb-2">
                 <i class="fas fa-phone c-secondary mr-2"></i> +92 310 2310553
               </li>
               <li class="flex items-center mb-2">
-                <i class="fas fa-envelope c-secondary mr-2"></i>rosetechlyari@gmail.com
+                <i class="fas fa-envelope c-secondary mr-2"></i
+                >rosetechlyari@gmail.com
               </li>
             </ul>
           </div>
         </div>
-        
 
         <!-- Google Map -->
         <div class="mt-8">
@@ -195,7 +205,7 @@
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d905.0298257787023!2d66.9959276!3d24.8597746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315f686e02c17%3A0xd8156d8048196acd!2sWhite%20Rose%20Grammar%20School!5e0!3m2!1sen!2s!4v1706106117648!5m2!1sen!2s"
             width="100%"
             height="450"
-            style="border: 0;"
+            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -203,11 +213,6 @@
         </div>
       </section>
     </main>
-
-    
-    
-
-
 
     <footer>
       <div class="footerMain">
@@ -225,10 +230,26 @@
         <div class="section1">
           <h3>Social Links</h3>
           <p>
-            <a href="https://www.facebook.com/@rosetechlyari" target="_blank" class="fa-brands fa-facebook"></a>
-            <a href="https://www.instagram.com/@_rosetech/" target="_blank" class="fa-brands fa-instagram"></a>
-            <a href="https://www.youtube.com/@rosetechlyari" target="_blank" class="fa-brands fa-youtube"></a>
-            <a href="https://www.tiktok.com/@rosetechlyari" target="_blank" class="fa-brands fa-tiktok"></a>
+            <a
+              href="https://www.facebook.com/@rosetechlyari"
+              target="_blank"
+              class="fa-brands fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/@_rosetech/"
+              target="_blank"
+              class="fa-brands fa-instagram"
+            ></a>
+            <a
+              href="https://www.youtube.com/@rosetechlyari"
+              target="_blank"
+              class="fa-brands fa-youtube"
+            ></a>
+            <a
+              href="https://www.tiktok.com/@rosetechlyari"
+              target="_blank"
+              class="fa-brands fa-tiktok"
+            ></a>
           </p>
         </div>
         <div class="section1">
@@ -253,143 +274,171 @@
       </div>
     </footer>
     <script>
-      const handleSubmit = (e) =>{
-        e.preventDefault()
-        const name = document.querySelector("#name").value
-        const email = document.querySelector("#email").value
-        const message = document.querySelector("#message").value
-        alert(name)
+      document.querySelector("#form").addEventListener("submit", (e) => {
+        e.preventDefault(); // Prevent the default form submission behavior
 
+        const name = document.querySelector("#name").value;
+        const email = document.querySelector("#email").value;
+        const message = document.querySelector("#message").value;
+
+        // Clear form fields
+        document.querySelector("#name").value = "";
+        document.querySelector("#email").value = "";
+        document.querySelector("#message").value = "";
+
+        // Display success message
+        alert("Message sent successfully!");
+
+        // You can add code here to send the form data to a server if needed
+      });
+
+      // const handleSubmit = (e) => {
+      //   e.preventDefault(); // Add this line to prevent form submission
+
+      //   // Get form values
+      //   const name = document.querySelector("#name").value;
+      //   const email = document.querySelector("#email").value;
+      //   const message = document.querySelector("#message").value;
+
+      //   // Clear form fields
+      //   document.querySelector("#name").value = "";
+      //   document.querySelector("#email").value = "";
+      //   document.querySelector("#message").value = "";
+
+      //   // Display success message
+      //   alert("Message sent successfully!");
+
+      //   // Send the form data to the server using AJAX (optional)
+      //   // ...
+      // };
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "url": "https://rafaymemon01.github.io/Rose-Tech/",
+        "name": "Rose Tech",
+        "description": "Learn about Rose Tech, a leading Computer Institute in Lyari, Karachi. Explore our courses in Web development, Graphic Design, Video Editing, MIT, and more.",
+        "logo": "https://rafaymemon01.github.io/Rose-Tech/Assets/logo.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/rose-tech-919b0726a/",
+          "https://www.tiktok.com/@rosetechlyari",
+          "https://www.youtube.com/@rosetechlyari",
+          "https://www.facebook.com/@rosetechlyari",
+          "https://www.instagram.com/@_rosetech/"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+92 310 2310553",
+          "contactType": "customer service",
+          "areaServed": "Lyari, Karachi",
+          "availableLanguage": ["English", "Urdu"]
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Rose Tech Campus",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "White Rose Grammar School, Mir Muhammad Balauch Road, Near Baghdadi Police Station",
+            "addressLocality": "Karachi",
+            "addressRegion": "Sindh",
+            "postalCode": "75400",
+            "addressCountry": "Pakistan"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "24.859774606590456",
+            "longitude": "66.99592761996232"
+          }
+        },
+        "foundingDate": "2019-01-01",
+        "founders": [
+          {
+            "@type": "Person",
+            "name": "Sir Anwer Ali Bhatti",
+            "sameAs": "https://www.facebook.com/anwarali.bhatti.7/"
+          }
+        ],
+        "educationalCredentialAwarded": "Certificate",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Courses Catalog",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "WordPress Web Development"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "MERN Stack Development"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "React JS"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Express.js"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Node.js"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "MongoDB"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "MS Office"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Basic Computer"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Graphic Design"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Course",
+                "name": "Video Editing"
+              }
+            }
+            // Add more courses as needed
+          ]
+        }
+        // Add more properties as needed
       }
     </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
-      "url": "https://rafaymemon01.github.io/Rose-Tech/",
-      "name": "Rose Tech",
-      "description": "Learn about Rose Tech, a leading Computer Institute in Lyari, Karachi. Explore our courses in Web development, Graphic Design, Video Editing, MIT, and more.",
-      "logo": "https://rafaymemon01.github.io/Rose-Tech/Assets/logo.png",
-      "sameAs": [
-        "https://www.linkedin.com/in/rose-tech-919b0726a/",
-        "https://www.tiktok.com/@rosetechlyari",
-        "https://www.youtube.com/@rosetechlyari",
-        "https://www.facebook.com/@rosetechlyari",
-        "https://www.instagram.com/@_rosetech/"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+92 310 2310553",
-        "contactType": "customer service",
-        "areaServed": "Lyari, Karachi",
-        "availableLanguage": ["English", "Urdu"]
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Rose Tech Campus",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "White Rose Grammar School, Mir Muhammad Balauch Road, Near Baghdadi Police Station",
-          "addressLocality": "Karachi",
-          "addressRegion": "Sindh",
-          "postalCode": "75400",
-          "addressCountry": "Pakistan"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "24.859774606590456",
-          "longitude": "66.99592761996232"
-        }
-      },
-      "foundingDate": "2019-01-01",
-      "founders": [
-        {
-          "@type": "Person",
-          "name": "Sir Anwer Ali Bhatti",
-          "sameAs": "https://www.facebook.com/anwarali.bhatti.7/"
-        }
-      ],
-      "educationalCredentialAwarded": "Certificate",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Courses Catalog",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "WordPress Web Development"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "MERN Stack Development"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "React JS"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "Express.js"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "Node.js"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "MongoDB"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "MS Office"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "Basic Computer"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "Graphic Design"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Course",
-              "name": "Video Editing"
-            }
-          }
-          // Add more courses as needed
-        ]
-      }
-      // Add more properties as needed
-    }
-  </script>
-  
-</body>
+  </body>
 </html>
