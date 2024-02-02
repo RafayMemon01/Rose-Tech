@@ -82,8 +82,8 @@ const eventsData = {
     {
       imageurl:"https://lh3.googleusercontent.com/pw/ABLVV87xWp6d2NVRBZnjvTKMmYfhu3vEM7Mjg_0z5h_sPH4bOvMMdHa6Xhdi1A8CiMXoJ83K4AbWJ5k4nKDZdjCUXgeGfBzkr3M9fhpGQGXrBJCK7CZJQTocm8auTbiyH85EAMdCENbUimVcWerQvf2HT6WZ=w1346-h897-s-no-gm?authuser=0",
       learnmoreandimageanchorlink:"https://www.facebook.com/worldsoftech/photos/a.1089544201392899/1089656898048296/?type=3",
-      title: "",
-      description: "",
+      title: "WORDPRESS ZILLA 3.O",
+      description: "PAKISTAN U.S. ALUMNI NETWORK - Karachi Chapter & World Softech is proud to announce the another Amazing training named,  WORDPRESS ZILLA 3.O . The bunch of Workshops of most needed skills in professional life including WordPress, Digital Marketing Basics, Communication Skills and Self Branding using social media platforms under one platform with the support of Lincoln Corner Sindh & Alpha Alliance Pakistan.",
       date: "Jan 13, 2020",
     },
   ],
