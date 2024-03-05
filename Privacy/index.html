@@ -64,6 +64,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <div class="responsiveDiv">
   <a
       target="_blank"
       title="Whatsapp Contact"
@@ -100,7 +101,7 @@
           class="md:ml-auto md:mr-auto flex flex-wrap items-center text-lg justify-center"
         >
           <a href="/" title="Home" class="mr-5 hover:text-gray-900"> Home </a>
-          <a href="./About-Us/" title="About" class="mr-5 hover:text-gray-900">
+          <a href="../About-Us/" title="About" class="mr-5 hover:text-gray-900">
             About
           </a>
           <a href="../Events/" title="Events" class="mr-5 hover:text-gray-900"
@@ -108,14 +109,14 @@
           >
 
           <a
-            href="./Our-Courses/"
+            href="../Our-Courses/"
             title="Courses"
             class="mr-5 hover:text-gray-900"
           >
             Courses
           </a>
           <a
-            href="./Contact-us/"
+            href="../Contact-us/"
             title="Contact"
             class="mr-5 hover:text-gray-900"
           >
@@ -134,11 +135,19 @@
       </div>
     </header>
 
-    <main class="" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+    <main class="" style="display: flex; flex-direction: column; gap: 4em;">
+      <div class="mainHeading">
+        <div class="heading">
+          <h1>BEST COMPUTER COURSES</h1>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+      
       <div class="pdf-container">
           <embed src="./Rose-Tech-Priacy-policy.pdf" type="application/pdf" width="800" height="500">
       </div>
-      <a href="./Rose-Tech-Priacy-policy.pdf" class="download-btn" download>Download PDF</a>
+      <a href="./Rose-Tech-Priacy-policy.pdf" class="download-btn EnrollNowBtn" style="padding: .5em; margin-top: 1em;" download>Download PDF</a>
+    </div>
   </main>
 
 
@@ -201,7 +210,10 @@
       </div>
       <hr />
       <div class="footerBottom">
-        <p>Copyright &copy 2024. All rights reserved</p>
+        <div>
+          <p>Copyright &copy 2024. All rights reserved</p>
+          <a href="../Privacy/"><p>Privacy Policy</p></a>
+        </div>
         <p>
           Website created by
           <a
@@ -212,7 +224,7 @@
           </a>
         </p>
       </div>
-    </footer>
+    </footer></div>
 </body>
 
 </html>
