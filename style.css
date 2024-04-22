@@ -2,13 +2,16 @@ body {
   background-color: azure;
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .responsiveDiv{
-  max-width: 1245px;
+  /* max-width: 1245px;
+  margin: 0;
+  padding: 0;
+   */
 }
 body header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
