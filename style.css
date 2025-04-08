@@ -7,15 +7,18 @@ body {
   justify-content: center;
   align-items: center; */
 }
-.responsiveDiv{
+
+.responsiveDiv {
   /* max-width: 1245px;
   margin: 0;
   padding: 0;
    */
 }
+
 body header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .subHeader {
   display: flex;
   padding: 0.5em;
@@ -23,6 +26,7 @@ body header {
   background-color: rgb(161, 37, 47);
   justify-content: center;
 }
+
 .EnrollNowBtn {
   background-color: rgb(161, 37, 47);
   color: white;
@@ -36,21 +40,25 @@ body header {
 main {
   margin-top: 5px;
 }
-.mainHeading{
+
+.mainHeading {
   display: flex;
   justify-content: start;
   padding: 2em;
   background-color: rgb(161, 37, 47);
   margin-top: -1em;
   border: .2px white;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
-.mainHeading .heading{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.mainHeading .heading {
   font-size: 32px;
   font-weight: bold;
   color: white;
   /* padding: .2em; */
   border-bottom: 2px solid white;
 }
+
 .mainBox {
   background-image: url("https://lh3.googleusercontent.com/pw/ABLVV87BgCIkDhc7FIW8D5lc-5GcB_lBNVgIXEg22ZcSowXk4oCSlClw4HEMCOwRvPFo5tOsbGkpnAQM-rQ8XSwzpJgEuaMwfgtKwlzismqbcv4Q4bcLBFHPxm9knr9smXMLbXvjaYy9p8YeP12XXO--6Khj=w1196-h897-s-no-gm?authuser=0");
   height: 420px;
@@ -70,12 +78,11 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.79
-  ); /* Adjust the alpha (last parameter) to control the transparency */
+  background-color: rgba(255,
+      255,
+      255,
+      0.79);
+  /* Adjust the alpha (last parameter) to control the transparency */
 }
 
 .introBox {
@@ -83,8 +90,10 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  position: relative; /* Ensure stacking context */
-  z-index: 1; /* Bring the content to the front */
+  position: relative;
+  /* Ensure stacking context */
+  z-index: 1;
+  /* Bring the content to the front */
   /* margin-left: em; */
   background-color: rgba(161, 37, 47, 0.915);
   gap: 1.5rem;
@@ -124,13 +133,16 @@ main {
   .introBox h1 {
     font-size: 36px;
   }
+
   .introBox {
     gap: 0.5rem;
     padding: 2rem;
   }
+
   .mainBox {
     height: 330px;
   }
+
   .introBox div button {
     border: 1px solid darkred;
   }
@@ -140,6 +152,7 @@ main {
   .introBox h1 {
     font-size: 22px !important;
   }
+
   .introBox {
     gap: 1;
     padding: 0.5em;
@@ -147,13 +160,15 @@ main {
     margin-left: 0;
     margin-right: 0;
   }
+
   .EnrollNowBtn {
     display: none !important;
   }
-  
+
   .introBox div button {
     margin-top: 40px;
   }
+
   .mainBox::before {
     background-color: rgba(255, 255, 255, 0.488);
   }
@@ -168,16 +183,20 @@ main {
   text-align: center;
   gap: 2em;
 }
+
 .introContainer h2 {
   font-size: 30px;
   font-weight: bold;
 }
+
 .introContainer p {
   width: 70%;
 }
-.active{
+
+.active {
   border-bottom: 2px solid rgb(161, 37, 47);
 }
+
 @media screen and (max-width: 766px) {
   .introContainer p {
     width: 100%;
@@ -191,10 +210,12 @@ main {
   gap: 10rem;
   /* flex-wrap: nowrap; */
 }
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -204,6 +225,7 @@ main {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -215,12 +237,14 @@ main {
   width: 100px;
   animation: slideInLeft 5s ease;
 }
+
 .underlineRight {
   background-color: darkred;
   height: 2px;
   width: 100px;
   animation: slideInRight 5s ease;
 }
+
 .whatsappIcon {
   width: 70px;
   height: 70px;
@@ -236,6 +260,7 @@ main {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .whatsappIcon:hover {
   background-color: rgb(161, 37, 47);
 }
@@ -246,6 +271,7 @@ main {
   justify-content: center;
   gap: 5rem;
 }
+
 .CourseSection {
   width: 500px;
   display: flex;
@@ -265,12 +291,14 @@ main {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .CourseSection button {
   text-align: center;
   display: flex;
   justify-self: center;
   align-self: center;
 }
+
 .CourseSection button i {
   font-size: 54px;
   background-color: rgb(161, 37, 47);
@@ -279,18 +307,22 @@ main {
   border-radius: 1em;
   color: white;
 }
+
 .CourseSection h3 {
   font-size: 20px;
   font-weight: bold;
 }
+
 .CourseSection a {
   color: rgb(161, 37, 47);
   font-weight: bold;
 }
+
 .CourseSection a:hover {
   color: rgb(161, 37, 47);
   text-decoration: underline;
 }
+
 @media screen and (max-width: 665px) {
   .mainCourses {
     flex-wrap: wrap;
@@ -304,16 +336,19 @@ main {
   margin-bottom: 100px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
+
 .whyChooseUS .left,
 .right {
   width: 50%;
 }
+
 .whyChooseUS .left {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://lh3.googleusercontent.com/pw/ABLVV85_txhmel1pxkm6Mv16gMrXm1w4Kmy8E1pEq9ST2gHNhAr03pyRN_gl8SjCUjMuKtroKMKcYpJomRSOhgIJvCujka8E2hzbO0JGoGuKa4TTwKC7v2abpHJ9F5dgAIyAdlmXNLEJnopsoA8_fPJda3rE=w1196-h897-s-no-gm?authuser=0");
 }
+
 .whyChooseUS .right {
   background-image: url("https://lh3.googleusercontent.com/pw/ABLVV85iAtcX4FzdF7fUHXR_zivxuX6PWRU4J3_VJIfHYxEXVhLYkNPJcqxgr7yYG9ORpMAKBtgCpGIOwD18tYcOuu_ydTVw2chF0cQf7Uh91Sbdhy5ati2sIC7otUoaCwicgHOI6nGBj-EX6UT670enQe7G=w1269-h897-s-no-gm?authuser=0");
   display: flex;
@@ -322,10 +357,12 @@ main {
   padding: 2rem;
   color: white;
 }
+
 .right h2 {
   font-size: 26px;
   font-weight: bold;
 }
+
 .whyChooseUS .right .section {
   display: flex;
   gap: 1em;
@@ -333,6 +370,7 @@ main {
   align-items: center;
   /* flex-direction: column; */
 }
+
 .section div button {
   display: flex;
   justify-content: center;
@@ -343,27 +381,30 @@ main {
   padding: 0.5em;
   border-radius: 50%;
 }
+
 .section .segment {
   display: flex;
   flex-direction: column;
   width: 450px;
 }
+
 .section .segment h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 769px) {
   .left {
     display: none;
   }
+
   .whyChooseUS {
     display: flex;
     justify-content: center;
   }
+
   .right {
     width: 100%;
     border-radius: 2em;
@@ -372,15 +413,18 @@ main {
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 }
+
 /* h */
 @media screen and (max-width: 675px) {
   .right {
     width: 100%;
     border-radius: 0%;
   }
+
   .whyChooseUS {
     justify-content: start;
   }
+
   .section div button {
     font-size: 36px;
   }
@@ -395,23 +439,28 @@ main {
   padding: 3em;
   padding-top: 2rem;
 }
+
 .short-about .why-rose-tech {
   width: 50%;
 }
+
 .why-rose-tech {
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
+
 .short-about-heading {
   display: flex;
   flex-direction: column;
   gap: 0.2em;
 }
+
 .short-about-heading h2 {
   font-size: 24px;
   font-weight: bold;
 }
+
 .short-about-heading hr {
   width: 7em;
   height: 2px;
@@ -423,10 +472,12 @@ main {
     flex-wrap: wrap;
     justify-content: start;
   }
+
   .short-about .why-rose-tech {
     width: 100%;
   }
 }
+
 .c-secondary {
   color: rgb(161, 37, 47);
 }
@@ -463,6 +514,7 @@ footer {
   flex-direction: column;
   gap: 2em;
 }
+
 .section1 h3 {
   font-size: 20px;
   font-weight: bold;
@@ -477,14 +529,17 @@ footer {
   .section1 {
     gap: 1em;
   }
+
   .footerMain {
     gap: 2em;
   }
 }
+
 @media screen and (max-width: 426px) {
   .section1 {
     gap: 1em;
   }
+
   .footerMain {
     /* gap: 2em; */
     flex-wrap: wrap;
@@ -559,4 +614,33 @@ footer {
 .show {
   opacity: 1;
   visibility: visible;
+}
+
+.recognitionBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(161, 37, 47);
+  padding: 1em 2em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.recognitionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+
+  h2{
+    font-size: 24px !important;
+    font-weight: bold;
+  }
+
+}
+.buttonContainer a{
+  background-color: white;
+  color: rgb(161, 37, 47);
+  padding: 0.5em 1em;
 }
