@@ -112,7 +112,7 @@ main {
   text-align: center;
 }
 
-.introBox div button {
+/* .introBox div button {
   background-color: white;
   color: darkred;
   padding: 12px 24px;
@@ -123,10 +123,27 @@ main {
 }
 
 .introBox div button:hover {
-  /* background-color: darkred; */
   border: 2px solid darkred;
   background-color: transparent;
   color: white;
+} */
+.introBox div button {
+  background-color: white;
+  color: darkred;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease, transform 0.3s ease;
+}
+
+.introBox div button:hover {
+  background-color: #F5CB3E; 
+  color: black; 
+  border: 2px solid #F5CB3E; 
+  transform: scale(1.05); 
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -275,21 +292,21 @@ main {
 .CourseSection {
   width: 500px;
   display: flex;
-  flex-direction: row;
   flex-direction: column;
   justify-content: center;
   gap: 2em;
   text-align: center;
-  /* border: 1px solid black; */
   padding: 10px;
   border-radius: 1.5em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: box-shadow 0.5s ease, transform 0.5s ease; /* added transition */
 }
 
 .CourseSection:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform: translateY(-10px) scale(1.02); /* added transform on hover */
 }
 
 .CourseSection button {
